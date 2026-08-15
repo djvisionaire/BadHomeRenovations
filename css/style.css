@@ -18,3 +18,17 @@
 .mobile-bar{display:none}
 @media(max-width:900px){.links{display:none}.menu{display:block}.nav-cta{display:none}.hero{min-height:760px}.trust{grid-template-columns:1fr 1fr}.trust-item{border:0}.cards,.service-grid,.project-grid,.reviews{grid-template-columns:1fr 1fr}.split{grid-template-columns:1fr}.split-photo{min-height:420px}.stats{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.brand{font-size:1.2rem}.hero{min-height:800px;background-position:62% center}.hero-content{padding-top:50px}.hero h1{font-size:3.6rem}.hero p{font-size:1rem}.trust{width:94%;bottom:12px;padding:10px}.trust-item{padding:6px 9px}.trust strong{font-size:.78rem}.trust small{font-size:.65rem}.cards,.service-grid,.project-grid,.reviews,.footer-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.stat strong{font-size:2.1rem}.mobile-bar{display:flex;position:fixed;z-index:100;bottom:12px;left:12px;right:12px;justify-content:center;background:var(--green);color:#fff;border-radius:8px;padding:12px;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.3)}}
+
+/* Enhanced Projects Gallery */
+.project-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.project{min-height:380px;background:#111!important;position:relative;overflow:hidden;isolation:isolate}
+.project img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .5s ease}
+.project:hover img{transform:scale(1.06)}
+.project:after{z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.02) 25%,rgba(0,0,0,.88) 100%)}
+.project-copy{left:26px;right:26px;bottom:25px}
+.project-copy .tag{display:inline-block;background:#43aa50;color:#fff;border-radius:999px;padding:5px 10px;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;margin-bottom:9px}
+.project-copy h3{font-size:1.5rem;margin:0 0 6px}
+.project-copy p{font-size:.95rem;line-height:1.45}
+.project-copy a{display:inline-block;margin-top:12px;color:#8ce995;font-weight:900}
+@media(max-width:900px){.project-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.project-grid{grid-template-columns:1fr}.project{min-height:340px}}

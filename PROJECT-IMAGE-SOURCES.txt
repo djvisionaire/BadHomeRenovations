@@ -1,0 +1,9 @@
+The Projects page currently uses remotely hosted images found through image search.
+Review each source's licensing/permission before commercial publication.
+
+Tree Removal: https://cdn-jbnkd.nitrocdn.com/swyXsZrVdASLdKzDnKULUqzuAKntvdXc/assets/images/optimized/rev-3410004/beaversgllc.com/wp-content/uploads/2023/04/tree-service-maryland.jpg
+Tree Trimming: https://lirp.cdn-website.com/c359b1b8/dms3rep/multi/opt/Hoisted%2Barborist%2Btrimming%2Bbranches-640w.png
+Stump Grinding: https://www.gotreequotes.com/wp-content/uploads/2021/03/Stump-Grinding-cost.jpg
+Storm Cleanup: https://www.irishexaminer.com/cms_media/module_img/9967/4983752_5_articleinline_AGStorm_20Bram_209-12-2025-21.jpg
+Property Improvement: https://images.squarespace-cdn.com/content/v1/69a1643f468114345fe38e0b/9533a2d7-1b9b-4566-89b8-65249994798a/Interior%2BRemodeling.png
+Commercial Tree Service: https://irp.cdn-website.com/6fc19aad/dms3rep/multi/298b5b5c-59d8-431f-8675-2d7a074872bc.jpg
